@@ -1,0 +1,188 @@
+body {
+  background: hsl(185, 41%, 84%);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-family: "Space Mono", monospace;
+}
+header {
+  width: 100%;
+  display: flex;
+  margin: 150px 0 50px 0;
+  justify-content: center;
+}
+header p {
+  letter-spacing: 7px;
+  width: 60px;
+  font-weight: 900;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#main-div {
+  width: 700px;
+  display: flex;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#sec1 {
+  margin-left: 15px;
+  font-weight: 700;
+  width: 100%;
+}
+#sec1 div {
+  margin: 10px 0 20px 0;
+}
+#tip-btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 2px;
+  font-weight: 700;
+}
+.tip-ip {
+  width: 70px;
+  margin: 5px 10px 5px 0;
+  padding: 8px 10px;
+  text-align: center;
+  background: hsl(185, 41%, 84%);
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 16px;
+}
+.tip-btn {
+  width: 91px;
+  margin: 5px 10px 5px 0;
+  padding: 8px 10px;
+  background-color: rgb(5, 49, 49);
+  border-width: 0px;
+  border-radius: 5px;
+  color: white;
+}
+.tip-btn:hover {
+  background-color: hsl(186, 72%, 62%);
+  color: black;
+  font-weight: 700;
+}
+.tip-ip:hover {
+  border-color: hsl(172, 67%, 45%);
+  background-color: hsl(185, 41%, 84%);
+  border-width: 1px;
+  height: 14px;
+}
+.text {
+  width: 300px;
+  height: 35px;
+  margin-top: 5px;
+  background-color: hsl(180, 63%, 92%);
+  border-width: 0px;
+  border-color: transparent;
+  border-style: solid;
+  outline: none;
+  text-align: right;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+#text1,
+#text2 {
+  background-image: url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+}
+
+#text2 {
+  background-image: url(images/icon-person.svg);
+}
+#sec2 {
+  background: rgb(5, 49, 49);
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.amount {
+  width: 260px;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+h5 span {
+  color: grey;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+}
+#reset {
+  width: 280px;
+  height: 40px;
+  background-color: rgb(30, 80, 80);
+  color: rgb(5, 49, 49);
+  font-weight: 800;
+  border-width: 0px;
+  border-radius: 3px;
+}
+#reset:hover {
+  background-color: hsl(186, 73%, 72%);
+}
+h1 {
+  color: hsl(172, 67%, 45%);
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 15px;
+  text-align: right;
+}
+h1 span {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+#sec1 span {
+  position: absolute;
+  margin-left: 170px;
+  color: red;
+}
+@media (max-width: 700px) {
+  header {
+    margin-top: 40px;
+  }
+  #main-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+  }
+  #sec1,
+  #sec2 {
+    width: 100%;
+  }
+  #btn {
+    height: 100px;
+    align-items: center;
+  }
+}
